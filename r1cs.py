@@ -13,7 +13,7 @@ OUT = [
 # A gives us the left argument (right side of equality) of each constraint
 A = [
     [0, 1, 0, 0, 0, 0], # LHARG of 1) x
-    [0, 0, 1, 0, 0, 0], # LHARG of 2) x^2
+    [0, 1, 0, 0, 0, 0], # LHARG of 2) x^2
     [0, -1, 0, 0, 0, 0] # LHARG of 3) -x
 ]
 
